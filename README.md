@@ -1,5 +1,5 @@
 <h1 align="center">
-  BootStrap Web Starter
+  BootStrap Examples
 </h1>
 
 <h3 align="center">Template from <a href="https://github.com/twbs/bootstrap-npm-starter">Boostrap NPM Starter</a> </h3>
@@ -8,26 +8,10 @@
 
 ## About
 
-`Bootstrap Web Starter` is a node website starter with bootstrap installed and local server. 
-
-[![Build Status](https://github.com/ChrisAchinga/Bootstrap-Starter/workflows/CI/badge.svg)](https://github.com/ChrisAchinga/Bootstrap-Starter/actions)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f48cb63c-4fcc-47cf-983b-45771cb8b25a/deploy-status)](https://app.netlify.com/sites/webstarternode/deploys)
-
-## Using This Template Directly
-
-To start using this template, click the `Use This Template` green button at the top right. Or Use this link:
-
-[Use Template](https://github.com/ChrisAchinga/Bootstrap-Starter/generate)
-
-Read More in the Wiki
+Bootstrap Examples
 
 
-## Starting Your Project
-
-How you'll use the templates
-
-## Running Your Web
+## Running The Project
 
 Be sure to have [Node.js](https://nodejs.org/) installed before proceeding.
 
