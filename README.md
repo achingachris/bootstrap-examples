@@ -4,6 +4,8 @@
 
 <h3 align="center">Template from <a href="https://github.com/twbs/bootstrap-npm-starter">Boostrap NPM Starter</a> </h3>
 
+![CI](https://github.com/ChrisAchinga/bootstrap-examples/workflows/CI/badge.svg)
+
 <p align="center">Start your NPM website faster using this customized templates</p>
 
 ## About

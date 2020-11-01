@@ -76,6 +76,8 @@ $body-bg: #f5f5f5;
 @import "bootstrap/scss/print";
 
 // My Modules
+@import "cards";
+
 
 //
 // Custom styles
@@ -96,8 +98,8 @@ body {
 /* Other Classes for Page Styling */
 
 body {
-  background: #444950;
-  background: linear-gradient(to right, #444950, #898a8b);
+  background: #070707;
+  background: linear-gradient(to right, #070707, #898a8b);
 }
 
 @media (min-width: 992px) {

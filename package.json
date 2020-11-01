@@ -17,7 +17,7 @@
     "css-purge": "purgecss --css assets/css/style.css --content index.html --output assets/css/",
     "css": "npm run css-compile && npm run css-prefix",
     "start": "serve --listen 3000",
-    "watch": "nodemon -e html,scss -x \"npm run css\"",
+    "watch": "nodemon -e html,scss -x \"npm run css\" ",
     "test": "npm run css"
   },
   "keywords": [
