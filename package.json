@@ -1,0 +1,46 @@
+{
+  "name": "bootstrap-starter",
+  "version": "0.0.0",
+  "description": "My web starter template from bootstrap starter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisAchinga/Bootstrap-Starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChrisAchinga/Bootstrap-Starter/issues"
+  },
+  "homepage": "https://github.com/ChrisAchinga/Bootstrap-Starter#readme",
+  "scripts": {
+    "build": "npm run css",
+    "css-compile": "node-sass --include-path node_modules --output-style compressed --source-map true --source-map-contents true --precision 6 scss -o assets/css/",
+    "css-prefix": "postcss --replace assets/css/style.css --use autoprefixer --map",
+    "css-purge": "purgecss --css assets/css/style.css --content index.html --output assets/css/",
+    "css": "npm run css-compile && npm run css-prefix",
+    "start": "serve --listen 3000",
+    "watch": "nodemon -e html,scss -x \"npm run css\"",
+    "test": "npm run css"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "css",
+    "javascript",
+    "starter",
+    "template"
+  ],
+  "author": "Chris Achinga",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "1.16.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.6",
+    "postcss-cli": "^7.1.1",
+    "purgecss": "^2.1.2",
+    "serve": "^11.3.0"
+  }
+}
