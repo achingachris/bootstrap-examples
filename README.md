@@ -49,18 +49,3 @@ The following npm scripts are available to you in this starter repo. With the ex
 | `css-compile` | Compiles source Sass into CSS |
 | `css-prefix` | Runs Autoprefixer on the compiled CSS |
 | `css-purge` | Runs PurgeCSS to remove CSS that is unused by `index.html` |
-
-## Actions CI
-
-We've included some simple GitHub Actions in this template repo. When you generate your new project from here, you'll have the same tests that run whenever a pull request is created. We've included Actions for the following:
-
-- Stylelint for your CSS
-
-When your repository is generated, you won't see anything in the Actions tab until you create a new pull request. You can customize these Actions, add new ones, or remove them outright if you wish.
-
-[Learn more about GitHub Actions](https://github.com/features/actions), [read the Actions docs](https://help.github.com/en/actions), or [browse the Actions Marketplace](https://github.com/marketplace/actions).
-
-
-### Special Thanks To
-
-- @mdo 2020 and licensed MIT.
